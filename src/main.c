@@ -5,13 +5,20 @@
 
 int main(void)
 {
-    // Definition of the matrix that defines the
+    ////////////////////////////////////////////////
+    ////// DEFINITION OF THE "ANTENAS" MATRIX //////
+    ////////////////////////////////////////////////
+    //
+    // Definition of the matrix that describes the
     // configuration of the antennas.
+    //
+    // Definitions DO NOT go in header files.
     int antenas[N_ANTENAS][4] =
     {
-        {0, 0, 1, 4},
-        {1, 4, 0, 4},
-        {1, 4, 0, 4},
+        {0, 9, 0, 5},
+        {0, 9, 0, 2},
+        {9, 0, 3, 7},
+        {9, 9, 3, 12},
     };
     
     // Matrix to store the coverage status of every

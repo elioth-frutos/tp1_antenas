@@ -4,10 +4,10 @@
 #define ANTENAS
 
 #define TAM_CIUDAD 10
-#define N_ANTENAS 3
+#define N_ANTENAS 4
 
-// DO NOT put the definition of this array in this header file.
-// The definition should go inside the main function.
+// The definition of the matrix "antenas" goes in the main function.
+// Definitions DO NOT go in header files.
 extern int antenas[N_ANTENAS][4];
 
 #endif
