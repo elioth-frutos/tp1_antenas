@@ -6,7 +6,7 @@ problem involving matrix traversal.
 1. Clone this repo.
 
 ```
-git clone 
+git clone https://github.com/elioth-frutos/tp1_antenas
 ```
 
 2. `cd` into the root directory and run `make`.
