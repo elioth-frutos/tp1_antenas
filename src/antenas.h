@@ -1,3 +1,5 @@
+// This is a sample "antenas.h" file.
+
 #ifndef ANTENAS
 #define ANTENAS
 

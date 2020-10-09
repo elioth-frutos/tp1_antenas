@@ -1,10 +1,12 @@
-#include "functions.h"
-#include "print_functions.h"
+#include "./compute_functions/compute_functions.h"
+#include "./print_functions/print_functions.h"
+#include "./quarter/quarter.h"
 #include "antenas.h"
 
 int main(void)
 {
-    // Definition of the array "antenas".
+    // Definition of the matrix that defines the
+    // configuration of the antennas.
     int antenas[N_ANTENAS][4] =
     {
         {0, 0, 1, 4},
